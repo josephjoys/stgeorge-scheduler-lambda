@@ -3,9 +3,11 @@ package stgeorge;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
-public class Handler implements RequestHandler<Integer, String>{
+import java.util.Map;
+
+public class Handler implements RequestHandler<Map<String,String>, String>{
     @Override
-    public String handleRequest(Integer count, Context context) {
-        return String.valueOf(count);
+    public String handleRequest(Map<String,String> event, Context context) {
+        return String.valueOf(event.size());
     }
 }
