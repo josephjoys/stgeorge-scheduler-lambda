@@ -10,4 +10,4 @@ workflows:
 
   maven_build:
     jobs:
-    -run: mvn package
+       -run: mvn package
