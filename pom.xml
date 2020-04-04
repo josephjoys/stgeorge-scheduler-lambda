@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.java</groupId>
-	<artifactId>StgeorgeLambda</artifactId>
+	<artifactId>StGeorgeSchedulerLambda</artifactId>
 	<version>0.1-SNAPSHOT</version>
-	<name>St george lambda</name>
+	<name>St george scheduler</name>
 	<packaging>jar</packaging>
 
 	<properties>
